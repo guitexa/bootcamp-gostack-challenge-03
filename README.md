@@ -2,7 +2,7 @@
     <img alt="GoStack" src="https://ap.imagensbrasil.org/images/2020/04/09/banner-bootcamp-gostack-11.png" />
 </p>
 
-## :rocket: Desafio 02: Conceitos do Node.js
+## :rocket: Desafio 03: Conceitos do Reactjs
 
 ✔ [Acessar página do desafio](https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/desafio-conceitos-reactjs)
 
