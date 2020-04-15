@@ -4,14 +4,17 @@ import api from './services/api';
 import './styles.css';
 
 function App() {
+  // Inicial state array
   const [repositories, setRepositories] = useState([]);
 
+  // Check existing repositories and insert on state array
   useEffect(() => {
     api.get('/repositories').then((response) => {
       setRepositories(response.data);
     });
   }, []);
 
+  // Create a new repository and update state array
   async function handleAddRepository() {
     const response = await api.post('/repositories', {
       title: `Repositório #${Date.now()}`,
@@ -24,6 +27,7 @@ function App() {
     setRepositories([...repositories, repository]);
   }
 
+  // Delete repository and update state array
   async function handleRemoveRepository(id) {
     await api.delete(`/repositories/${id}`);
 
@@ -34,6 +38,7 @@ function App() {
     setRepositories(repository);
   }
 
+  // List existing repositories on state array
   return (
     <div>
       <ul data-testid="repository-list">
