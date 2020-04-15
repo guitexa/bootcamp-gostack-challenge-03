@@ -4,6 +4,11 @@
 
 ## :rocket: Desafio 03: Conceitos do Reactjs
 
+<br />
+<p align="center">
+<img alt="Projeto em funcionamento" src="https://media.giphy.com/media/LQiQJEX8QkkbWaCNZq/giphy.gif">
+</p>
+
 ✔ [Acessar página do desafio](https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/desafio-conceitos-reactjs)
 
 🏁 Desafio completado em 14 de abril de 2020
