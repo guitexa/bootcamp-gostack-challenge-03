@@ -2,15 +2,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: none;
 }
 
 body {
-  font-size: 14px;
+  background-color: #24292e;
+  color: #ccc;
+  font: 14px sans-serif;
 }
 
-div {
-  width: 100%;
-  margin: 20px;
+#root {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 div li {
@@ -31,9 +37,19 @@ button {
   margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
+  border: 1px solid #7159c1;
+  border-radius: 3px;
+  transition: 250ms ease-in-out;
+}
+button:hover {
+  background-color: #24292e;
 }
 
 div li button {
   margin: 0 15px;
   background: #ca4949;
+  border: 1px solid #ca4949;
+}
+div li button:hover {
+  background-color: #24292e;
 }
