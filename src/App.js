@@ -17,7 +17,7 @@ function App() {
   // Create a new repository and update state array
   async function handleAddRepository() {
     const response = await api.post('/repositories', {
-      title: `Repositório #${Date.now()}`,
+      title: `Repo #${Date.now()}`,
       url: 'http://www.com.br',
       techs: 'Node.js, ReactJS & React Native',
     });
