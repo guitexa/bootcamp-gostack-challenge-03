@@ -18,8 +18,8 @@ function App() {
   async function handleAddRepository() {
     const response = await api.post('/repositories', {
       title: `Repo #${Date.now()}`,
-      url: 'http://www.com.br',
-      techs: 'Node.js, ReactJS & React Native',
+      url: 'http://api.github.com',
+      techs: ['NodeJS', 'React', 'React Native'],
     });
 
     const repository = response.data;
