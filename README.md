@@ -2,7 +2,7 @@
     <img alt="GoStack" src="https://ap.imagensbrasil.org/images/2020/04/09/banner-bootcamp-gostack-11.png" />
 </p>
 
-## :rocket: Desafio 03: Conceitos do Reactjs
+## :rocket: Desafio 03: Conceitos do ReactJS
 
 <br />
 <p align="center">
